@@ -90,7 +90,7 @@ export async function runSetup(opts: SetupOptions): Promise<number> {
     console.log("Re-run without --dry-run to apply changes.");
   } else if (!opts.uninstall) {
     console.log(`MCP entry installed as "terminal-mcp" with command: terminal-mcp --headless`);
-    console.log(`Make sure 'terminal-mcp' is on PATH (or use 'npm install -g @ellery/terminal-mcp').`);
+    console.log(`Make sure 'terminal-mcp' is on PATH (or use 'npm install -g @gpanula/terminal-mcp' / 'npm link').`);
   }
 
   return exitCode;

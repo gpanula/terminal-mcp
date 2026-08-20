@@ -56,7 +56,7 @@ Or install Visual Studio Build Tools manually from [visualstudio.microsoft.com](
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/elleryfamilia/terminal-mcp.git
+git clone https://github.com/gpanula/terminal-mcp.git
 cd terminal-mcp
 ```
 
@@ -80,7 +80,7 @@ ls dist/
 The easiest way to install is using the install script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/elleryfamilia/terminal-mcp/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gpanula/terminal-mcp/main/install.sh | bash
 ```
 
 This will clone the repo, build it, and create a `terminal-mcp` symlink in your PATH.
@@ -186,7 +186,7 @@ npm run build
 Re-run the install script to update:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/elleryfamilia/terminal-mcp/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gpanula/terminal-mcp/main/install.sh | bash
 ```
 
 Or manually:

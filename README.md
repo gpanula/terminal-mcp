@@ -13,13 +13,17 @@
 ## Install
 
 ```bash
-npm install -g @ellery/terminal-mcp
+# Via Git
+npm install -g git+https://github.com/gpanula/terminal-mcp.git
+
+# Or via npm (if published)
+npm install -g @gpanula/terminal-mcp
 ```
 
 Or via install script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/elleryfamilia/terminal-mcp/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/gpanula/terminal-mcp/main/install.sh | bash
 ```
 
 ### Configure your AI tools
@@ -49,7 +53,7 @@ A `.bak` of any pre-existing config is written next to the original on first ins
 ### Upgrading
 
 ```bash
-npm install -g @ellery/terminal-mcp@latest
+npm install -g git+https://github.com/gpanula/terminal-mcp.git
 ```
 
 Interactive mode will print a banner on next launch when a newer release is available — `terminal-mcp` checks the npm registry once per day and caches the result. Headless and MCP-client modes never check or print anything (so MCP stdio stays clean). To opt out entirely, set `NO_UPDATE_NOTIFIER=1` or pass `--no-update-notifier`.

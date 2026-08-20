@@ -1,16 +1,16 @@
 {
-  "name": "@ellery/terminal-mcp",
-  "version": "0.4.2",
+  "name": "@gpanula/terminal-mcp",
+  "version": "0.4.2-gpanula.1",
   "description": "A headless terminal emulator exposed via MCP for AI assistants",
   "author": "Ellery Familia",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elleryfamilia/terminal-mcp.git"
+    "url": "https://github.com/gpanula/terminal-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/elleryfamilia/terminal-mcp/issues"
+    "url": "https://github.com/gpanula/terminal-mcp/issues"
   },
-  "homepage": "https://github.com/elleryfamilia/terminal-mcp#readme",
+  "homepage": "https://github.com/gpanula/terminal-mcp#readme",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -50,5 +50,9 @@
     "ai",
     "claude"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "allowScripts": {
+    "esbuild@0.27.2": true,
+    "node-pty@1.2.0-beta.8": true
+  }
 }

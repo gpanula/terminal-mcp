@@ -2,9 +2,9 @@
 set -e
 
 # Terminal MCP Installer
-# https://github.com/elleryfamilia/terminal-mcp
+# https://github.com/gpanula/terminal-mcp
 
-REPO_URL="https://github.com/elleryfamilia/terminal-mcp.git"
+REPO_URL="https://github.com/gpanula/terminal-mcp.git"
 INSTALL_DIR="$HOME/.terminal-mcp"
 
 # Colors for output
